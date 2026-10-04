@@ -1,0 +1,56 @@
+ILLUSTRATIVE SAMPLE OUTPUT - NOT AN OBSERVED EXECUTION
+
+=== PrimeTrack: Client Inquiry Tracker ===
+1. Record an inquiry
+2. View all inquiries
+3. Search by inquiry ID
+4. Update inquiry status
+5. View inquiry summary
+0. Exit
+Choose an option: 1
+
+--- Record a Client Inquiry ---
+Client name: Joseph Kambay
+Email address: joseph@example.com
+Service requested: Web Development
+Subject: Company website request
+Message: I would like information about building a company website.
+Inquiry recorded. The inquiry ID is 1.
+
+=== PrimeTrack: Client Inquiry Tracker ===
+1. Record an inquiry
+2. View all inquiries
+3. Search by inquiry ID
+4. Update inquiry status
+5. View inquiry summary
+0. Exit
+Choose an option: 4
+Enter inquiry ID: 1
+Choose the new status:
+1. New
+2. Under Review
+3. Responded
+4. Closed
+Enter status number: 2
+Inquiry 1 updated to Under Review.
+
+=== PrimeTrack: Client Inquiry Tracker ===
+1. Record an inquiry
+2. View all inquiries
+3. Search by inquiry ID
+4. Update inquiry status
+5. View inquiry summary
+0. Exit
+Choose an option: 5
+
+--- Inquiry Summary ---
+Total inquiries: 1
+New: 0
+Under Review: 1
+Responded: 0
+Closed: 0
+
+Choose an option: 0
+PrimeTrack closed.
+
+Note: This transcript illustrates expected interaction. Run main.dart with the Dart SDK and replace it with a captured run before describing it as a tested execution.
